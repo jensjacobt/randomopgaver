@@ -62,7 +62,8 @@ Hold dig til bogstaverne a-z og tal i mellem $-tegnene i pladsholdernavne for at
 undgå formateringsproblemer. NB: _`$Elevnavn$` erstattes også med elevens navn,
 så det er muligt at gøre det synligt i dokumentet, hvem opgaven er tiltænkt._
 
-Kolonner uden en pladsholder (`$tag` eller `$$svar$$`) i første række vil blive ignoreret, så de kan bruges til mellemregninger, kommentarer og andet.
+Kolonner uden en pladsholder (`$tag$` eller `$$svar$$`) i første række vil blive
+ignoreret, så de kan bruges til mellemregninger, kommentarer og andet.
 
 Funktionen `SlumpMellem` i Excel kan bruges til et generere tilfældige heltal og
 ved at dividere med titalspotenser kan dette også give decimaltal. Tal som skal
