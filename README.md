@@ -23,12 +23,17 @@ Grafisk brugerflade
 
 ![Skærmklip af grafisk brugerflade](images/gui.png "Grafisk brugerflade.")
 
-Programmet startes fra startmenuen. I samme mappe i startmenuen ligger også to
-eksempelfiler. Se mere information om Word-dokumentet og Excel-arket nedenfor.
+Programmet startes fra startmenuen. Se mere information om Word-dokumentet og
+Excel-arket nedenfor.
 
 
 Anvendelse
 ----------
+
+Ud over nedenstående kan du se de to eksempler, der lægger sig i startmenuen i
+samme mappe som Randomopgaver-programmet. Derudover indeholder [Wiki'en][wiki]
+mere information.
+
 
 ### Excel-arket
 
