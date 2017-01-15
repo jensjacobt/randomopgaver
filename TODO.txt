@@ -1,0 +1,25 @@
+Forbedringsmuligheder:
+ - Transparent ikon alle steder
+ - Mere dokumentation - allerførst eksempel med flere opgaver
+
+Udført:
+  - Afskaf mærkelige numerations??
+        o https://github.com/enthought/comtypes/blob/master/comtypes/test/test_word.py
+  - Få Excel til at gemme .csv-fil, fjern /r og ryd op (hvis givet Excel-fil)
+  - Pænere minustegn (skriv teksten ind?)
+        o http://stackoverflow.com/questions/13465709/repeating-microsoft-word-vba-until-no-search-results-found (DROPPET)
+  - Tilføj slutstatus - succes eller fiasko
+  - Find alternativ indhylning (f.eks. $ $)
+  - Ignorér kolonner som  ikke starter med $
+  - Lav mulighed for at fjerne svar vha. programmering - brug separat syntaks for svar
+  - Mulighed for valg af output_folder
+  - Tilføj grafisk brugerflade
+      - Husk at få handlet
+      - Vis command line output i boks (som dukker op ELLER forklarer)
+  - Bedre fejlhåndtering i GUI
+  - Opdatér README.md
+  - Lav installer
+  - Tilføj ikon
+  - Tilføj eksempel til README.md
+  - Tilføj 'Known issues' til README.md
+  - Upload til GitHub
