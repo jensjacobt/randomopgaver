@@ -7,7 +7,8 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{2C73F677-EE23-4BC3-9C48-0336C4F85A1A}
 AppName=Randomopgaver
-AppVersion=1.0
+#define AppVer "1.0"
+AppVersion={#AppVer}
 ;AppVerName=Randomopgaver 1.0
 AppPublisher=jensjacobt
 AppPublisherURL=https://github.com/jensjacobt/randomopgaver
@@ -17,9 +18,9 @@ DefaultDirName={pf}\Randomopgaver
 DisableDirPage=yes
 DefaultGroupName=Randomopgaver
 AllowNoIcons=yes
-LicenseFile=F:\Dropbox\Dev\Projects\random-opgaver\LICENSE
+LicenseFile=LICENSE
 OutputDir=setup
-OutputBaseFilename=randomopgaver-{AppVersion}-setup
+OutputBaseFilename=randomopgaver-{#AppVer}-setup
 Compression=lzma
 SolidCompression=yes
 
@@ -31,8 +32,8 @@ Name: "danish"; MessagesFile: "compiler:Languages\Danish.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "F:\Dropbox\Dev\Projects\random-opgaver\dist\randomopgavergui\randomopgavergui.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "F:\Dropbox\Dev\Projects\random-opgaver\dist\randomopgavergui\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "dist\randomopgavergui\randomopgavergui.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\randomopgavergui\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
